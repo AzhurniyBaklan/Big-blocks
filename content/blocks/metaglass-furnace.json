@@ -1,0 +1,37 @@
+{
+"type": "GenericSmelter",
+"craftEffect": {
+  "type": "ParticleEffect",
+  "lifetime": 10,
+  "length": 8,
+  "colorTo": ffffff
+}
+"updateEffect": "smeltsmoke",
+"flameColor": f0bd73,
+"size": 3,
+"craftTime": 20,
+"consumes": {
+  "power": 2,
+  "liquid": {
+    "liquid": "water",
+    "amount": 0.2,
+
+  },
+  "items": {
+    "items": [
+      lead/2
+      sand/2
+    ]
+  }
+},
+"outputItem": metaglass/2,
+"category": "crafting",
+"research": "kiln",
+"requirements": [
+  copper/120
+  lead/60
+  graphite/90
+  metaglass/50
+  silicon/30
+]
+}

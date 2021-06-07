@@ -1,0 +1,19 @@
+{"type": "ThermalGenerator",
+ "requirements": [
+  plastanium/100,
+  silicon/150,
+  graphite/120,
+  copper/80,
+  surge-alloy/50,
+  phase-fabric/80
+ ],
+ "powerProduction": 2.6,
+ "generateEffect": "redgeneratespark",
+ "size": 3,
+ "ambientSound": "hum",
+ "ambientSoundVolume": 0.12,
+ "health": 720,
+
+ "research": "thermal-generator",
+ "category": "power"
+}
