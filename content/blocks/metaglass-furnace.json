@@ -5,7 +5,11 @@
   "lifetime": 10,
   "length": 8,
   "colorTo": ffffff
-}
+},
+"health": 680,
+"hasLiquids": "true",
+"hasPower": "true",
+"hasItems": "true",
 "updateEffect": "smeltsmoke",
 "flameColor": f0bd73,
 "size": 3,
@@ -19,7 +23,7 @@
   },
   "items": {
     "items": [
-      lead/2
+      lead/2,
       sand/2
     ]
   }
@@ -28,10 +32,11 @@
 "category": "crafting",
 "research": "kiln",
 "requirements": [
-  copper/120
-  lead/60
-  graphite/90
-  metaglass/50
+  copper/120,
+  lead/60,
+  graphite/90,
+  metaglass/50,
   silicon/30
+  plastanium/20
 ]
 }

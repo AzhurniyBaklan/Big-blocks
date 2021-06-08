@@ -1,0 +1,32 @@
+health: 570
+requirements: 
+ [
+ metaglass/80
+ silicon/40
+ graphite/60
+ titanium/20
+ plastanium/30
+ ]
+size: 3
+liquidCapacity: 30
+maxBoost: 2
+craftTime: 25
+attribute: spores
+envRequired: spores
+craftEffect: none
+outputItem: spore-pod/2
+consumes:   
+  {
+  power: 2.5
+  liquid:       
+    {
+    liquid: water
+    amount: 0.4 
+    }
+  items:
+    {
+    items: [graphite/1]
+    }
+  }
+category: production
+research: cultivator
